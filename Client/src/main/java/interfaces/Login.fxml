@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaces.LoginController">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="800.0" layoutX="543.0" pickOnBounds="true" smooth="false" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../image/56140420_403077416908380_5366988225388740608_n.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutY="6.0" prefHeight="550.0" prefWidth="84.0" style="-fx-background-color: black;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="logo" fitHeight="70.0" fitWidth="75.0" layoutX="4.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="63.0" fitWidth="67.0" layoutX="10.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="malek" fitHeight="47.0" fitWidth="54.0" layoutX="20.0" layoutY="167.0" onMouseClicked="#redirectionMalek" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8_Angry_50px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="sinda" fitHeight="54.0" fitWidth="60.0" layoutX="15.0" layoutY="96.0" onMouseClicked="#redirectionSinda" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8_Update_User_50px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ouiem" fitHeight="47.0" fitWidth="54.0" layoutX="19.0" layoutY="228.0" onMouseClicked="#redirectionOuiem" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8_Packaging_50px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mootaz" fitHeight="47.0" fitWidth="54.0" layoutX="19.0" layoutY="304.0" onMouseClicked="#redirectionMootaz" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8_Add_Shopping_Cart_50px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ahmed" fitHeight="70.0" fitWidth="54.0" layoutX="15.0" layoutY="376.0" onMouseClicked="#redirectionAhmed" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/56209488_497502814115865_5045913246482038784_n.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mtimet" fitHeight="70.0" fitWidth="54.0" layoutX="15.0" layoutY="452.0" onMouseClicked="#redirectionMtimet" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/56352703_732948757102151_1220682705419632640_n.png" />
+               </image></ImageView>
+         </children>
+      </AnchorPane>
+      <Label fx:id="nomOp" layoutX="361.0" layoutY="447.0" prefHeight="70.0" prefWidth="277.0" rotate="-8.1" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="id" layoutX="614.0" layoutY="105.0" prefHeight="17.0" prefWidth="115.0" visible="false" />
+   </children>
+</AnchorPane>
